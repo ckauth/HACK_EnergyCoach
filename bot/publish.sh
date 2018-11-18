@@ -1,0 +1,1 @@
+az bot publish --name "energyCoach" --resource-group "FreeRG"

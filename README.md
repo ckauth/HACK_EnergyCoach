@@ -25,7 +25,7 @@ Energy Coach
 
 # Award
 
-I am honored to being awarded the second prize of the [_BlueArk Challenge 2018 - Energy Digitalization_](https://blueark-challenge.ch/en/)
+I am honored to being awarded the second prize of the [_BlueArk Challenge 2018 - Energy Digitalization_](https://blueark-challenge.ch/en/). If you haven't been at a hackathon yet, have a look at the [aftermovie](https://www.youtube.com/watch?v=3Dd8oYrXbc8&feature=youtu.be)
 
 <a href="url"><img src="https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/award.jpg" align="center" height="500"></a>
 
@@ -34,7 +34,11 @@ I am honored to being awarded the second prize of the [_BlueArk Challenge 2018 -
 
 The project is written in Javascript and leverages Microsoft's [Bot Builder SDK](https://dev.botframework.com/). Natural language is build into the bot thanks to [LUIS](https://www.luis.ai/home), and the label reading uses [OCR](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) under the hood. The bot has been deployed to the [Azure computing cloud](https://azure.microsoft.com/en-us/) as a web app.
 
-To spin this code up, you'll need to seed the XXX file with your personal credentials.
+To spin this code up, you'll need to seed a few files with your personal credentials:
+- bot/dialogs/estimate/index.js
+- bot/energyCoach.bot
+- .env
+
 
 
 

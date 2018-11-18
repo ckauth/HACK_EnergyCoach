@@ -1,0 +1,61 @@
+{
+  "name": "energyCoach",
+  "padlock": "<your_padlock>",
+  "version": "2.0",
+  "services": [
+    {
+      "tenantId": "<your_tenant_id>",
+      "subscriptionId": "<your_azure_subscription_id>",
+      "resourceGroup": "FreeRG",
+      "serviceName": "energyCoach",
+      "type": "abs",
+      "name": "energyCoach",
+      "id": "1"
+    },
+    {
+      "connectionString": "<your_connection_string>",
+      "tenantId": "<your_tenant_id>",
+      "subscriptionId": "<your_azure_subscription_id>",
+      "resourceGroup": "FreeRG",
+      "serviceName": "energycoach",
+      "type": "blob",
+      "id": "2"
+    },
+    {
+      "appId": "",
+      "appPassword": "",
+      "endpoint": "http://localhost:3978/api/messages",
+      "type": "endpoint",
+      "name": "development",
+      "id": "3"
+    },
+    {
+      "appId": "<your_app_id>",
+      "appPassword": "<your_app_password>",
+      "endpoint": "https://energycoach.azurewebsites.net/api/messages",
+      "type": "endpoint",
+      "name": "production",
+      "id": "4"
+    },
+    {
+      "instrumentationKey": "<your_instrumentation_key>",
+      "applicationId": "<your_app_id>",
+      "apiKeys": {},
+      "tenantId": "<your_tenant_id>",
+      "subscriptionId": "<your_azure_subscription_id>",
+      "resourceGroup": "FreeRG",
+      "serviceName": "<your_app_service_name>",
+      "type": "appInsights",
+      "id": "5"
+    },
+    {
+      "appId": "<your_app_id>",
+      "authoringKey": "<your_authoring_key>",
+      "version": "0.1",
+      "region": "westeurope",
+      "type": "luis",
+      "name": "BasicBotLuisApplication",
+      "id": "6"
+    }
+  ]
+}

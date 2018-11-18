@@ -1,0 +1,212 @@
+{
+  "luis_schema_version": "3.1.0",
+  "versionId": "0.1",
+  "name": "energyCoach-9997",
+  "desc": "A BotBuilder generated bot",
+  "culture": "en-us",
+  "intents": [
+    {
+      "name": "Estimate"
+    },
+    {
+      "name": "Explain"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [
+    {
+      "name": "device",
+      "roles": []
+    }
+  ],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "at the end, how much will cost this television",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 36,
+          "endPos": 45
+        }
+      ]
+    },
+    {
+      "text": "by how much will my bill increase if i buy this fridge?",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 48,
+          "endPos": 53
+        }
+      ]
+    },
+    {
+      "text": "by how much will the refrigerator increase my electricity bill?",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 21,
+          "endPos": 32
+        }
+      ]
+    },
+    {
+      "text": "how did you do that?",
+      "intent": "Explain",
+      "entities": []
+    },
+    {
+      "text": "how much electricity will the television consume?",
+      "intent": "Estimate",
+      "entities": []
+    },
+    {
+      "text": "how much the fridge will cost",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 13,
+          "endPos": 18
+        }
+      ]
+    },
+    {
+      "text": "how much will this fridge cost per year?",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 19,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "how the fridge impacts my electricity bill",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 8,
+          "endPos": 13
+        }
+      ]
+    },
+    {
+      "text": "how will this fridge act on my eergy footprint?",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 14,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "i'm eager to learn how you computed that electricity cost earlier today!",
+      "intent": "Explain",
+      "entities": []
+    },
+    {
+      "text": "i'm impressed. can you explain more?",
+      "intent": "Explain",
+      "entities": []
+    },
+    {
+      "text": "i'm impressed. show me the magic behind",
+      "intent": "Explain",
+      "entities": []
+    },
+    {
+      "text": "show me the magic",
+      "intent": "Explain",
+      "entities": []
+    },
+    {
+      "text": "tell me how did that",
+      "intent": "Explain",
+      "entities": []
+    },
+    {
+      "text": "the electricity cost for this refrigerator",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 30,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "the refrigerator's price",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 4,
+          "endPos": 15
+        }
+      ]
+    },
+    {
+      "text": "what are the running costs for this fridge?",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 36,
+          "endPos": 41
+        }
+      ]
+    },
+    {
+      "text": "what will this television do to my electricity bill?",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 15,
+          "endPos": 24
+        }
+      ]
+    },
+    {
+      "text": "what's the trick?",
+      "intent": "Explain",
+      "entities": []
+    },
+    {
+      "text": "will this television increase my bill?",
+      "intent": "Estimate",
+      "entities": [
+        {
+          "entity": "device",
+          "startPos": 10,
+          "endPos": 19
+        }
+      ]
+    },
+    {
+      "text": "you impressed my at the shop! how did you do that?",
+      "intent": "Explain",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
