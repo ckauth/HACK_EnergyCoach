@@ -35,9 +35,12 @@ I am honored to being awarded the second prize of the [_BlueArk Challenge 2018 -
 The project is written in Javascript and leverages Microsoft's [Bot Builder SDK](https://dev.botframework.com/). Natural language is build into the bot thanks to [LUIS](https://www.luis.ai/home), and the label reading uses [OCR](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/) under the hood. The bot has been deployed to the [Azure computing cloud](https://azure.microsoft.com/en-us/) as a web app.
 
 To spin this code up, you'll need to seed a few files with your personal credentials:
-- bot/dialogs/estimate/index.js
+- bot/dialogs/estimate/estimate.js
 - bot/energyCoach.bot
 - .env
+
+To install the packages locally, run _npm install_ from the _./bot_ folder.
+To run the app locally, run _node index.js_ from the _./bot_ folder.
 
 
 
