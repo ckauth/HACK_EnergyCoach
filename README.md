@@ -13,8 +13,6 @@ At the end of an inspiring and intense 24h, stands _Energy Coach_, a bot that em
 
 ![Demo Cortana](https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/demo_cortana.gif "on Cortana")   ![Demo Skype](https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/demo_skype.gif "on Skype")
 
-HACK_EnergyCoach/illustrations/demo_cortana.gif 
-
 Energy Coach
 * Is your contact on Cortana or Skype
 * Understands your intent thanks to [natural language processing](https://www.luis.ai/)
@@ -40,6 +38,7 @@ To spin this code up, you'll need to seed a few files with your personal credent
 - .env
 
 To install the packages locally, run _npm install_ from the _./bot_ folder.
+
 To run the app locally, run _node index.js_ from the _./bot_ folder.
 
 
