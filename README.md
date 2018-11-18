@@ -4,14 +4,13 @@ Do you know how your beer in the fridge, your cake in the stove, or your movie n
 
 What if you could have these labels' facts about energy consumption translated into money on your electricity bill? I took on that challenge by developing a _bot_, who understands such labels and explains how an appliance shapes your electricity bill. 
 
-![Overview(https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/energy_coach.png)
-
+![Overview](https://github.com/ckauth/HACK_EnergyCoach/illustrations/energy_coach.png)
 
 # Achievements
 
 At the end of an inspiring and intense 24h, stands _Energy Coach_, a bot that empowers you to make informed purchases of electrical appliances, generally (like illustrated on Cortana) and at the shop (like demoed on Skype).
 
-![Demo Cortana](https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/demo_cortana.gif "on Cortana")   ![Demo Skype](https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/demo_skype.gif "on Skype")
+![Demo Cortana](https://github.com/ckauth/HACK_EnergyCoach/illustrations/demo_cortana.gif "on Cortana")           ![Demo Skype](https://github.com/ckauth/HACK_EnergyCoach/illustrations/demo_skype.gif "on Skype")
 
 Energy Coach
 * Is your contact on Cortana or Skype
@@ -24,7 +23,7 @@ Energy Coach
 
 I am honored to being awarded the second prize of the [_BlueArk Challenge 2018 - Energy Digitalization_](https://blueark-challenge.ch/en/)
 
-![Award](https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/award.jpg | height=300)
+![Award](https://github.com/ckauth/HACK_EnergyCoach/illustrations/award.jpg | height=300)
 
 # User Guide
 
