@@ -6,6 +6,7 @@ What if you could have these labels' facts about energy consumption translated i
 
 ![Overview](https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/energy_coach.png)
 
+
 # Achievements
 
 At the end of an inspiring and intense 24h, stands _Energy Coach_, a bot that empowers you to make informed purchases of electrical appliances, generally (like illustrated on Cortana) and at the shop (like demoed on Skype).
@@ -21,11 +22,13 @@ Energy Coach
 * Understands the label thanks to [optical character recognition](https://azure.microsoft.com/en-us/services/cognitive-services/computer-vision/)
 * Explains how the label impacts your electricity bill
 
+
 # Award
 
 I am honored to being awarded the second prize of the [_BlueArk Challenge 2018 - Energy Digitalization_](https://blueark-challenge.ch/en/)
 
-![Award](https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/award.jpg|height=300)
+<a href="url"><img src="https://github.com/ckauth/HACK_EnergyCoach/blob/master/illustrations/award.jpg" align="center" height="500"></a>
+
 
 # User Guide
 
